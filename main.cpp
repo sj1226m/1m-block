@@ -22,8 +22,8 @@ using namespace std;
 unordered_set<string> blocklist;
 
 void usage() {
-    printf("syntax : netfilter-test <host>\n");
-    printf("sample : netfilter-test test.gilgil.net\n");
+    printf("syntax : netfilter-test <site list file>\n");
+    printf("sample : netfilter-test top-1m.txt\n");
 }
 
 void store_hashlist(const string& filename){
